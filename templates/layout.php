@@ -8,8 +8,7 @@
 
 use CascadiaPHP\Site\SEO\SEOTools;
 
-?>
-<!doctype html>
+?><!doctype html>
 <html amp class="bg-lightblue">
 <head>
     <?php /** Enable AMP */ ?>

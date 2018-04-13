@@ -10,6 +10,7 @@ $r->get('/schedule', 'CascadiaPHP\Site\Controller\Schedule::view');
 $r->get('/speakers', 'CascadiaPHP\Site\Controller\Speakers::view');
 $r->get('/venue', 'CascadiaPHP\Site\Controller\Venue::view');
 $r->get('/sponsors', 'CascadiaPHP\Site\Controller\Sponsors::view');
+$r->get('/contact', 'CascadiaPHP\Site\Controller\Contact::view');
 
 $r->get('/register', '\CascadiaPHP\Site\Controller\Register::view');
 $r->post('/actually/register', '\CascadiaPHP\Site\Controller\Register::subscribe');
