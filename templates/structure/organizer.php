@@ -9,7 +9,7 @@
         </amp-img>
     </amp-layout>
     <div class="relative col-12 center pt2">
-        <span class="light-text white block nowrap mx3"><?= $twitter ?? $name ?></span>
+        <span class="light-text white block nowrap"><?= $twitter ?? $name ?></span>
         <sup class="light-text black"><?= $role ?? '' ?></sup>
     </div>
 </<?= isset($twitter) ? 'a' : 'div' ?>>
