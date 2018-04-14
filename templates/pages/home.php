@@ -73,7 +73,7 @@
         <?php $this->insert('structure/organizer', ['name' => 'Kevin DeCapite', 'role' => 'Vice President', 'image' => 'kevin.jpg', 'twitter' => '@kevindecapite']) ?>
         <?php $this->insert('structure/organizer', ['name' => 'Melinda Serven', 'role' => 'Treasurer', 'image' => 'melinda.jpg', 'twitter' => '@melindaserven']) ?>
         <?php $this->insert('structure/organizer', ['name' => 'Korvin Szanto', 'role' => 'Secretary', 'image' => 'korvin.jpg', 'twitter' => '@korvinszanto']) ?>
-        <?php $this->insert('structure/organizer', ['name' => 'Danielle Grillenzoni', 'image' => 'daniele.jpg']) ?>
+        <?php $this->insert('structure/organizer', ['name' => 'Danielle Grillenzoni', 'image' => 'daniele.jpg', 'twitter' => '@theMadness']) ?>
         <?php $this->insert('structure/organizer', ['name' => 'Kurtis Holsapple', 'image' => 'kurtis.jpg', 'twitter' => '@lapubell']) ?>
         <div class="clearfix"></div>
     </div>

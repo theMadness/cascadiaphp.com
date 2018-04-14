@@ -2,11 +2,14 @@
     <amp-layout width="1" height="1" layout="responsive" class="circle bg-blue cloth relative shadow-lg">
         <amp-img layout="fill"
                  src="<?= isset($image) ? "/images/scenes/who/$image" : "http://www.ywcabrand.org/atf/cf/%7Bc3201f87-9e48-4580-84fa-429e77844aa1%7D/BLP0062303.JPG" ?>"
-                 width="3833" height="2555" class="object-cover object-right">
+                 width="3833"
+                 height="2555"
+                 class="object-cover object-right"
+                 alt="<?= $name ?>">
         </amp-img>
     </amp-layout>
     <div class="relative col-12 center pt2">
-        <span class="light-text white block nowrap mx3"><?= $name ?> <span class="light-text black xs-hide"><?= $twitter ?? '' ?></span></span>
+        <span class="light-text white block nowrap mx3"><?= $twitter ?? $name ?></span>
         <sup class="light-text black"><?= $role ?? '' ?></sup>
     </div>
 </<?= isset($twitter) ? 'a' : 'div' ?>>
