@@ -68,7 +68,7 @@ $this->insert('structure/sidebar', [
 
 ?>
 
-<div class="main-structure mx-auto relative flex flex-column justify-between">
+<div class="main-structure mx-auto relative flex flex-column justify-between shadow">
     <?php
     if ($header ?? true) {
         $this->insert('structure/header', [
