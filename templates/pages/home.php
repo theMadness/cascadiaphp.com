@@ -70,8 +70,8 @@
     <amp-fit-text layout="fixed-height" height="75px" class="text-shadow-md center white">Who is Cascadia PHP?</amp-fit-text>
     <div class="contributors mx1 my1">
         <?php $this->insert('structure/organizer', ['name' => 'Alena Holligan', 'role' => 'President', 'image' => 'alena.jpg', 'twitter' => '@sketchings']) ?>
-        <?php $this->insert('structure/organizer', ['name' => 'Kevin DeCapite', 'role' => 'Vice President', 'image' => 'kevin.jpg', 'twitter' => '@etipaced']) ?>
-        <?php $this->insert('structure/organizer', ['name' => 'Melinda Serven', 'role' => 'Treasurer', 'image' => 'melinda.jpg']) ?>
+        <?php $this->insert('structure/organizer', ['name' => 'Kevin DeCapite', 'role' => 'Vice President', 'image' => 'kevin.jpg', 'twitter' => '@kevindecapite']) ?>
+        <?php $this->insert('structure/organizer', ['name' => 'Melinda Serven', 'role' => 'Treasurer', 'image' => 'melinda.jpg', 'twitter' => '@melindaserven']) ?>
         <?php $this->insert('structure/organizer', ['name' => 'Korvin Szanto', 'role' => 'Secretary', 'image' => 'korvin.jpg', 'twitter' => '@korvinszanto']) ?>
         <?php $this->insert('structure/organizer', ['name' => 'Danielle Grillenzoni', 'image' => 'daniele.jpg']) ?>
         <?php $this->insert('structure/organizer', ['name' => 'Kurtis Holsapple', 'image' => 'kurtis.jpg', 'twitter' => '@lapubell']) ?>
